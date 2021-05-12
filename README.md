@@ -1,0 +1,2 @@
+# talktorick
+AI chatbot
