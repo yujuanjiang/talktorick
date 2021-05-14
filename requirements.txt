@@ -3,3 +3,9 @@ Jinja2==2.10.1
 certifi==2019.11.28
 chardet==1.0.1
 gunicorn==19.9.0
+colorama==0.4.4
+numpy==1.19.5
+tensorflow==2.4.1
+sklearn==0.0
+pickleshare==0.7.5
+
