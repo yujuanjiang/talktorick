@@ -35,7 +35,7 @@ def predict():
 
         for i in data['intents']:
             if i['tag'] == tag:
-                return render_teplate('homt.html', pred = 'Rick says: '.format(i['responses']))
+                return render_template('home.html', pred = 'Rick says: '.format(i['responses']))
 
 
 if __name__ == '__main__':
