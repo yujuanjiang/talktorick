@@ -1,1 +1,1 @@
-web: gunicorn app:talktorick
+web: gunicorn app:app
