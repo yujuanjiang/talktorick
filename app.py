@@ -38,3 +38,5 @@ def predict():
                 return render_teplate('homt.html', pred = 'Rick says: '.format(i['responses']))
 
 
+if __name__ == '__main__':
+    app.run(debug=True)
