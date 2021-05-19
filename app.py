@@ -20,7 +20,7 @@ with open( 'label_encoder.pickle', 'rb') as enc:
 max_len = 20
 
 
-@app.route('/')
+@app.route('/', methods=['POST','GET'])
 def home():
     return render_template("home.html")
 
