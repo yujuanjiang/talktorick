@@ -5,13 +5,19 @@
 </head>
 
 <body>
-<form action="{{ url_for('predict')}}" methos="POST">
+<form action="{{ url_for('predict')}}" method="POST">
     <title> Talk to Rick! </title>
     
     <input type = "text", name="inp", placeholder="Talk here" /><br>
 
-    <buton type="submit" >Submit</button>
+    <input type="submit">
 
 </form>
 
+{% if pred  %}
+    {{ pred }} </br>
+
+{% endif %}
+
 </body>
+</html>

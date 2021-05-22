@@ -37,7 +37,7 @@ def predict():
         #inp = request.form.values()[0]
         inp = request.form.get('inp')
         print("inp value is: " + str(inp))
-        inp = 'Hello world!'
+        #inp = 'Hello world!'
 
         result = model.predict(keras.preprocessing.sequence.pad_sequences(tokenizer.texts_to_sequences([inp]),
                                              truncating='post', maxlen=max_len))
@@ -45,10 +45,11 @@ def predict():
 
         for i in data['intents']:
             if i['tag'] == tag:
+                print("Tag found!!!")
+                return render_template('home.html', pred = 'Rick says: ' + i['responses'][0])
                 #return render_template('home.html', pred = 'Rick says: '.format(i['responses']))
-                return render_template('home.html')
         
-        return render_template('home.html')
+        return render_template('home.html', pred="Response from Rick: {}".format(i['response']))
 
 
 if __name__ == '__main__':
