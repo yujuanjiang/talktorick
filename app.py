@@ -2,7 +2,6 @@ from flask import Flask, request, url_for, redirect, render_template, jsonify
 import pandas as pd
 import pickle
 import numpy as np
-from tensorflow.keras.models import load_model
 from tensorflow import keras
 from sklearn.preprocessing import LabelEncoder
 import json
