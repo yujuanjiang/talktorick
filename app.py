@@ -10,7 +10,7 @@ import json
 
 app = Flask(__name__)
 
-model = load_model('chat_model')
+model = keras.models.load_model('chat_model')
 
 with open("intents.json") as file:
     data = json.load(file)
