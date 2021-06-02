@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <link rel=¨stylesheet¨ type=¨text/css¨ href=¨..\style\chatUI.css¨>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/chatUI.css') }}">
 </head>
 
 <body>
@@ -10,7 +10,7 @@
 <section class="msger">
   <header class="msger-header">
     <div class="msger-header-title">
-      <i class="fas fa-comment-alt"></i> SimpleChat
+      <i class="fas fa-comment-alt"></i> Talk to Rick
     </div>
     <div class="msger-header-options">
       <span><i class="fas fa-cog"></i></span>
@@ -53,24 +53,25 @@
         </div>
       </div>
     </div>
-  </main>
+</main>
 
 <form class="msger-inputarea" action="{{ url_for('predict')}}" method="POST">
     <title> Talk to Rick! </title>
     
     <input type = "text"  class="msger-input" placeholder="Say something..." name="inp" /><br>
-
-    <input type="submit"> 
     <button type="submit" class="msger-send-btn">Send</button>
 
+
 </form>
+</section>
+
 
 {% if pred  %}
-    {{ pred }} </br>
-
+    <input type=hidden id="iRickResp" name="RickResp" value = "{{pred}}"/>
 {% endif %}
 
-</section>
+<script src="{{ url_for('static',filename='script/respond.js') }}"> </script>
+
 
 </body>
 </html>

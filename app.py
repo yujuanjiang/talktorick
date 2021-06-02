@@ -1,13 +1,14 @@
-from flask import Flask, request, url_for, redirect, render_template, jsonify
+from flask import Flask, request, url_for, redirect, render_template, jsonify  
 import pandas as pd
 import pickle
 import numpy as np
 from tensorflow import keras
 from sklearn.preprocessing import LabelEncoder
 import json
-#import keras
+#import keras  
 
 app = Flask(__name__)
+app.config["TEMPLATES_AUTO_RELOAD"] = True
 
 model = keras.models.load_model('chat_model')
 
@@ -24,15 +25,15 @@ with open( 'label_encoder.pickle', 'rb') as enc:
 
 # parameters
 max_len = 20
-
+   
 
 @app.route('/', methods=['POST','GET'])
 def home():
     return render_template("home.html")
 
-@app.route('/predict', methods = ['POST', 'GET'])
+@app.route('/', methods = ['POST', 'GET'])
 def predict():
-
+#    if request.method == 'POST':
         #inp = request.form.values()[0]
         inp = request.form.get('inp')
         print("inp value is: " + str(inp))
@@ -44,8 +45,9 @@ def predict():
 
         for i in data['intents']:
             if i['tag'] == tag:
-                print("Tag found!!!")
-                return render_template('home.html', pred = 'Rick says: ' + i['responses'][0])
+                print("Tag found!!!" + i['responses'][0])
+                return 'Rick says:' + i['responses'][0]
+                #return render_template('home.html', pred = 'Rick says: ' + i['responses'][0])
                 #return render_template('home.html', pred = 'Rick says: '.format(i['responses']))
         
         return render_template('home.html', pred="Response from Rick: {}".format(i['response']))

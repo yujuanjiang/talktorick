@@ -1,6 +1,8 @@
 const msgerForm = get(".msger-inputarea");
 const msgerInput = get(".msger-input");
 const msgerChat = get(".msger-chat");
+const msgerBtn = get(".msger-send-btn");
+const msgerResp = document.getElementById("iRickResp");;
 
 const BOT_MSGS = [
   "Hi, how are you?",
@@ -16,6 +18,7 @@ const PERSON_IMG = "https://image.flaticon.com/icons/svg/145/145867.svg";
 const BOT_NAME = "BOT";
 const PERSON_NAME = "Rick";
 
+/*
 msgerForm.addEventListener("submit", event => {
   event.preventDefault();
 
@@ -27,6 +30,28 @@ msgerForm.addEventListener("submit", event => {
 
   botResponse();
 });
+*/
+
+msgerBtn.addEventListener("click", event => {
+  window.alert("111!");
+
+  event.preventDefault();
+
+  const msgText = msgerInput.value;
+  if (!msgText) return;
+
+  appendMessage(PERSON_NAME, PERSON_IMG, "right", msgText);
+
+  resp = msgerForm.submit();
+
+  msgerInput.value = "";
+
+  window.alert(resp);
+  botResponse();
+});
+
+//window.alert('66666!')  //<--- It worked!
+
 
 function appendMessage(name, img, side, text) {
   //   Simple solution for small apps
@@ -51,7 +76,8 @@ function appendMessage(name, img, side, text) {
 
 function botResponse() {
   const r = random(0, BOT_MSGS.length - 1);
-  const msgText = BOT_MSGS[r];
+  //const msgText = BOT_MSGS[r];
+  const msgText = msgerResp.value;
   const delay = msgText.split(" ").length * 100;
 
   setTimeout(() => {
