@@ -15,8 +15,8 @@ const BOT_MSGS = [
 // Icons made by Freepik from www.flaticon.com
 const BOT_IMG = "https://image.flaticon.com/icons/svg/327/327779.svg";
 const PERSON_IMG = "https://image.flaticon.com/icons/svg/145/145867.svg";
-const BOT_NAME = "BOT";
-const PERSON_NAME = "Rick";
+const BOT_NAME = "Rick";
+const PERSON_NAME = "Me";
 
 /*
 msgerForm.addEventListener("submit", event => {
@@ -33,7 +33,7 @@ msgerForm.addEventListener("submit", event => {
 */
 
 msgerBtn.addEventListener("click", event => {
-  window.alert("111!");
+  //window.alert("111!");
 
   event.preventDefault();
 
@@ -42,12 +42,23 @@ msgerBtn.addEventListener("click", event => {
 
   appendMessage(PERSON_NAME, PERSON_IMG, "right", msgText);
 
-  resp = msgerForm.submit();
+  //resp = msgerForm.submit();
 
-  msgerInput.value = "";
+  const resp = fetch(`/reply/${msgText}`)
+      .then(function (response) {
+          return response.text();
+      }).then(function (text) {
+          //window.alert('GET response text:');
+          //window.alert(text); 
 
-  window.alert(resp);
-  botResponse();
+          msgerInput.value = "";
+          botResponse(text);
+      });
+
+//  window.alert('222');
+
+//msgerInput.value = "";
+//botResponse(resp);
 });
 
 //window.alert('66666!')  //<--- It worked!
@@ -74,15 +85,18 @@ function appendMessage(name, img, side, text) {
   msgerChat.scrollTop += 500;
 }
 
-function botResponse() {
+function botResponse(resp) {
   const r = random(0, BOT_MSGS.length - 1);
   //const msgText = BOT_MSGS[r];
-  const msgText = msgerResp.value;
+  const msgText = resp
+
+  //window.alert('Inside the func' + msgText);
   const delay = msgText.split(" ").length * 100;
 
   setTimeout(() => {
-    appendMessage(BOT_NAME, BOT_IMG, "left", msgText);
+    appendMessage(BOT_NAME, BOT_IMG, "left", resp);
   }, delay);
+
 }
 
 // Utils

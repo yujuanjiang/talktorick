@@ -31,7 +31,7 @@ max_len = 20
 def home():
     return render_template("home.html")
 
-@app.route('/', methods = ['POST', 'GET'])
+@app.route('/predict', methods = ['POST', 'GET'])
 def predict():
 #    if request.method == 'POST':
         #inp = request.form.values()[0]
@@ -51,6 +51,28 @@ def predict():
                 #return render_template('home.html', pred = 'Rick says: '.format(i['responses']))
         
         return render_template('home.html', pred="Response from Rick: {}".format(i['response']))
+
+
+@app.route('/reply/<inp>', methods = ['POST', 'GET'])
+def getReply(inp):
+    if request.method == 'POST': # POST request
+        return 'OK',200
+    else: # GET request
+        #inp = request.form.values()[0]
+        #inp = request.form.get('inp')
+        print("inp value is: " + str(inp))
+
+        result = model.predict(keras.preprocessing.sequence.pad_sequences(tokenizer.texts_to_sequences([inp]),
+                                             truncating='post', maxlen=max_len))
+        tag = lbl_encoder.inverse_transform([np.argmax(result)])
+
+        for i in data['intents']:
+            if i['tag'] == tag:
+                print("Tag found!!!" + i['responses'][0])
+                return i['responses'][0]
+
+        return 'Sorry! Did not understand that shit!'
+
 
 
 if __name__ == '__main__':
