@@ -13,8 +13,10 @@ const BOT_MSGS = [
 ];
 
 // Icons made by Freepik from www.flaticon.com
-const BOT_IMG = "https://image.flaticon.com/icons/svg/327/327779.svg";
-const PERSON_IMG = "https://image.flaticon.com/icons/svg/145/145867.svg";
+// const BOT_IMG = "https://image.flaticon.com/icons/svg/327/327779.svg";
+const BOT_IMG = "/static/Images/rick.png";
+// const PERSON_IMG = "https://image.flaticon.com/icons/svg/145/145867.svg";
+const PERSON_IMG = "/static/Images/meek.png";
 const BOT_NAME = "Rick";
 const PERSON_NAME = "Me";
 
