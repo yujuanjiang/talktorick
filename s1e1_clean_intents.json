@@ -1,0 +1,495 @@
+{"intents": [
+	{"tag": "0",
+	"patterns": ["What Rick","Whats going on"],
+	"responses": ["I got a surprise for you Morty"]
+	},
+	{"tag": "4",
+	"patterns": ["Ow","Youre tugging me too hard"],
+	"responses": ["Got a surprise for you Morty","We gotta go gotta get outta here come on"]
+	},
+	{"tag": "6",
+	"patterns": ["Is this the surprise","Yeah Rick","Iits great"],
+	"responses": ["I had I had to I had to make a bomb Morty","Morty","I had to do it","I had to create a bomb","I had to"]
+	},
+	{"tag": "8",
+	"patterns": ["What","A bomb"],
+	"responses": ["Were gonna drop it down there just get a whole fresh start Morty","Create a whole fresh start"]
+	},
+	{"tag": "10",
+	"patterns": ["Ttthats absolutely crazy"],
+	"responses": ["Just take it easy Morty","Come on Morty","Its gonna be good","Right now were gonna go pick up your little friend Jessica"]
+	},
+	{"tag": "12",
+	"patterns": ["From my math class","Jessica"],
+	"responses": ["Im gonna make it like a new Adam and Eve and youre gonna be Adam","When I drop the bomb you know I want you to have somebody you know","I want you to have the thing"]
+	},
+	{"tag": "14",
+	"patterns": ["Ohh"],
+	"responses": ["And Jessicas gonna be Eve"]
+	},
+	{"tag": "16",
+	"patterns": ["Whhhhwha"],
+	"responses": ["And so thats the surprise Morty"]
+	},
+	{"tag": "18",
+	"patterns": ["No you cant","Jessica doesnt even know I exist","Butbut but forget about that because you cant blow up humanity"],
+	"responses": ["You dont got","Yyou dont gotta worry about me trying to fool around with Jessica or mess around with Jessica or anything","Listen Im not","Im not that kind of guy Morty","II get what youre trying to say Morty"]
+	},
+	{"tag": "20",
+	"patterns": ["What are you talking about Rick"],
+	"responses": ["Shshshe she she shes all for you Morty","Youyou dont have to worry about me getting with Jessica or anything"]
+	},
+	{"tag": "22",
+	"patterns": ["I dont care about Jessica","YYyyyyyyyyyou"],
+	"responses": ["You know what Morty","Youre right"]
+	},
+	{"tag": "26",
+	"patterns": ["Oh thank god"],
+	"responses": ["You know what","That was all a test Morty","Just an elaborate test to make you more assertive"]
+	},
+	{"tag": "28",
+	"patterns": ["It was"],
+	"responses": ["Sure","Why not","I dont I dont know","Yyou know what Mo"]
+	},
+	{"tag": "30",
+	"patterns": ["Dad"],
+	"responses": ["You realize that nighttime makes up half of all time","What so everyones supposed to sleep every single night now"]
+	},
+	{"tag": "32",
+	"patterns": ["Oh my god my parents are so loud I want to die"],
+	"responses": ["You gotta rip that bandaid off now","Mm there is no God Summer","Youll thank me later"]
+	},
+	{"tag": "34",
+	"patterns": ["How is my son supposed to pass his classes if you keep dragging him off for highconcept SciFi rigamarole","What respect is due","Okay with all due respect Rick what am I talking about"],
+	"responses": ["Its a waste of time","Its your world","Youre a real Julius Caesar but Ill tell you somethingtell you how I feel about school Jerry","III dont want to overstep my bounds or anything","Its your house","Listen Jerry"]
+	},
+	{"tag": "36",
+	"patterns": ["Big mistake Morty and now Im gonna cut you cause my familys rich","You telling me how to bully now"],
+	"responses": ["Listen to me","I got an errand to run in a whole different dimension","There you are Morty","I need an extra pair of hands"]
+	},
+	{"tag": "38",
+	"patterns": ["Oh geez Rick","Wwwhatd you do to Frank"],
+	"responses": ["I froze him","Come on Morty","Its pretty obvious Morty","I mean we got we got to get get the hell out of here and go take care of business","Its important","Now listen I need your help Morty"]
+	},
+	{"tag": "40",
+	"patterns": ["I dont know Rick","I cant leave school again"],
+	"responses": ["Come on","Do you have any concept of how much higher the stakes get out there Morty","What do you think I can just do it all by myself"]
+	},
+	{"tag": "42",
+	"patterns": ["What about Frank","Okay","I guess I can skip history","Aw geez","I mean shouldnt you unfreeze him"],
+	"responses": ["Ill do it later Morty","Hell be fine","Lets go"]
+	},
+	{"tag": "44",
+	"patterns": ["Oh man Rick","What is this place"],
+	"responses": ["Theyre theyre incredibly powerful and I need them to help me with my research Morty","Im talking about Mega Seeds","Its Dimension 35C and its got the perfect climate conditions for a special type of tree Morty called a Mega Tree and theres fruit in those trees and theres seeds in those fruits"]
+	},
+	{"tag": "46",
+	"patterns": ["Oh man Rick","Im looking around this place and Im starting to work up some anxiety about this whole thing"],
+	"responses": ["Youre looking around and its all scary and different but you know mmeeting them head on charging right into them like a bull thats how we grow as people","Im no stranger to scary situations","I deal with them all the time","All right all right calm down","I know that new situations can be intimidating","Now if you just stick with me Morty were gonna be","Listen to me Morty"]
+	},
+	{"tag": "48",
+	"patterns": ["Youre looking around and its all scary and different but you know mmeeting them head on charging right into them like a bull thats how we grow as people","Im no stranger to scary situations","I deal with them all the time","All right all right calm down","I know that new situations can be intimidating","Now if you just stick with me Morty were gonna be","Listen to me Morty"],
+	"responses": ["HOLY CRAP MORTY RUN"]
+	},
+	{"tag": "50",
+	"patterns": ["HOLY CRAP MORTY RUN"],
+	"responses": ["I dont even know what the hell it is","Its gonna kill us","Were gonna die","We got to get out of here Morty","Were gonna die Morty","I never seen that thing before in my life"]
+	},
+	{"tag": "52",
+	"patterns": ["All right Rick look how much longer is this gonna be","Shouldnt I be back at school by now"],
+	"responses": ["It defies all logic that thing","Look at that thing right there","I mean look at all the crazy crap surrounding us","Are you joking me"]
+	},
+	{"tag": "54",
+	"patterns": ["Thats kind of the reason why I want to leave","Yeah Rick I get it","Were surrounded by monsters"],
+	"responses": ["Morty you see this","Tatatatatata"]
+	},
+	{"tag": "56",
+	"patterns": ["Morty you see this","Tatatatatata"],
+	"responses": ["Any idea what that is down there","You see what we just stumbled upon Morty"]
+	},
+	{"tag": "58",
+	"patterns": ["The mega trees"],
+	"responses": ["If we would have done what you wanted I would have never have found them because youre so in love with school","Thats right Morty the mega trees with the mega fruit on them and thats what Im talking about Morty","Thats where my seeds are"]
+	},
+	{"tag": "60",
+	"patterns": ["So whats so special about these seeds anyways","All right all right"],
+	"responses": ["Not very charismatic","It makes you kind of an","You ask a lot of questions Morty"]
+	},
+	{"tag": "62",
+	"patterns": ["Not very charismatic","It makes you kind of an","You ask a lot of questions Morty"],
+	"responses": ["These things really bring it all together","Just take these shoes Morty","When youre wearing these things these babies you can basically just walk on any surface you want Morty up down below turn around to the left","Theyrespecial grappling shoes"]
+	},
+	{"tag": "64",
+	"patterns": ["AAAAAAAHHHH"],
+	"responses": ["The shoes have to be turned on","You have to turn them on Morty"]
+	},
+	{"tag": "66",
+	"patterns": ["Im in a lot of pain Rick"],
+	"responses": ["Yeah I can see that","But do you think youll still be able to help mecollect my seeds Morty"]
+	},
+	{"tag": "68",
+	"patterns": ["Im sitting here with both of my legs broken and youre still asking me about getting those seeds","I cant believe this","Yyoure like Hitler butbut even Hitler cared about Germany or something","Oh","Are you kidding me","Ooh","Ow","Thats the last straw","Thats it Rick","Yyyoure a monster"],
+	"responses": ["Okay hold on just a second Morty"]
+	},
+	{"tag": "70",
+	"patterns": ["Thank you","Wow Rick","I mean Ive never felt so good in my life","Ooh Ohh Ooh","That stuff just healed my broken legs instantly"],
+	"responses": ["Dont worry about it Morty","Just come help me get these seeds all right buddy"]
+	},
+	{"tag": "72",
+	"patterns": ["Sure thing Rick"],
+	"responses": ["Not that you asked Morty but what just happened there is I went into a future dimension with such advanced medicine that they had brokenleg serum at every corner drugstore","The stuff was all over the place Morty"]
+	},
+	{"tag": "74",
+	"patterns": ["Wow thats pretty crazy Rick"],
+	"responses": ["Theres just one problem Morty one little hangup","The dimension I visited was so advanced thatIt was like I was some sort of you know celebrity walking around","There were a lot of attractive women there Morty and theytheythey they all wanted time with me","II was fascinating to them","Its got no charge left","I had a lot of fun with a lot of young ladies but I spent so much time there my interdimensional portal device its got no charge left Morty"]
+	},
+	{"tag": "76",
+	"patterns": ["What"],
+	"responses": ["Its as good as garbage Morty","Its not gonna work anymore Morty"]
+	},
+	{"tag": "78",
+	"patterns": ["Oh geez Rick thats not good","How are we gonna get back home","II have to be back at school right now","Wwhat are we gonna do"],
+	"responses": ["Theres ways to get back home Morty","Its just its just gonna be a little bit of a hassle","Were gonna have to go through interdimensional customs so youre gonna have to do me a real solid"]
+	},
+	{"tag": "80",
+	"patterns": ["Uhoh"],
+	"responses": ["When we get to customs Im gonna need you to take these seeds into the bathroom and Im gonna need you to put them way up inside your butthole Morty"]
+	},
+	{"tag": "82",
+	"patterns": ["In my butt"],
+	"responses": ["Put them way up inside there as far as they can fit"]
+	},
+	{"tag": "84",
+	"patterns": ["I really dont want to have to do that","Oh geez Rick"],
+	"responses": ["Ththese seeds arent gonna get through customs unless theyre in someones rectum Morty","Well somebodys got to do it Morty"]
+	},
+	{"tag": "86",
+	"patterns": ["Uuuh"],
+	"responses": ["Yyyouve got your whole life ahead of you and your anal cavity is still taut yet malleable","You got to do it for grandpa Morty","Yyouve got to put these seeds inside your butt","And theyll fall right out of mine","Ive done this too many times Morty","I mean youre young"]
+	},
+	{"tag": "88",
+	"patterns": ["In my butt"],
+	"responses": ["Come on Morty","Please Morty","You have to do it Morty"]
+	},
+	{"tag": "90",
+	"patterns": ["The glarp zone is for flarping and unglarping only"],
+	"responses": ["Did you get those seeds all the way up your butt","I dont like it here Morty","I cant abide bureaucracy","I dont like being told where to go and what to do","I consider it a violation"]
+	},
+	{"tag": "92",
+	"patterns": ["I mean these things are pointy","They hurt","Yeah Rick","Lets just get this over with okay"],
+	"responses": ["Youre a good kid Morty","That means theyre good ones","Im gonna be able to do a","Those mega seeds are super valuable to my work","Youve been a huge help to me"]
+	},
+	{"tag": "94",
+	"patterns": ["You go over there","Okay next through","Except you"],
+	"responses": ["Why does he have to go over there"]
+	},
+	{"tag": "96",
+	"patterns": ["Hes got to go through the new machine","Random check"],
+	"responses": ["What newwhat new machine"]
+	},
+	{"tag": "98",
+	"patterns": ["Its a new machine","It detects stuff all the way up your butt"],
+	"responses": ["Run Morty","Run"]
+	},
+	{"tag": "100",
+	"patterns": ["Aaaaah"],
+	"responses": ["Dont think about it"]
+	},
+	{"tag": "102",
+	"patterns": ["Dont think about it"],
+	"responses": ["The student becomes the teacher","Ooh","Oh nice Morty"]
+	},
+	{"tag": "104",
+	"patterns": ["Aah","You know me Im just trying to","Aw hell no dawg"],
+	"responses": ["Cover me","I need to type in the coordinates to our home world Morty"]
+	},
+	{"tag": "106",
+	"patterns": ["I mean you know II dont want to shoot nobody","Oh man"],
+	"responses": ["Theyre just robots Morty","Theyre robots","Its okay to shoot them"]
+	},
+	{"tag": "108",
+	"patterns": ["Theyre not robots Rick"],
+	"responses": ["You have no idea what prison is like here","Its a figure of speech Morty","Just keep shooting Morty","Theyre bureaucrats","I dont respect them"]
+	},
+	{"tag": "110",
+	"patterns": ["This is insane","Holy crap"],
+	"responses": ["We got to get the hell out of here","Come on Morty"]
+	},
+	{"tag": "112",
+	"patterns": ["Yeah"],
+	"responses": ["You can get his number later","You got to get those seeds out of your ass","Come on Morty","We got to get out of here"]
+	},
+	{"tag": "114",
+	"patterns": ["Im an angry father not an improviser"],
+	"responses": ["Oh my goodness Morty","No takers","No","We talked about this","Youryour parents and I are very disappointed inin this behavior","What are you doing out of class","Oh hi Jerry"]
+	},
+	{"tag": "116",
+	"patterns": ["Oh my goodness Morty","No takers","No","We talked about this","Youryour parents and I are very disappointed inin this behavior","What are you doing out of class","Oh hi Jerry"],
+	"responses": ["You guys should really not be touching that stuff","Its beyond your reasoning"]
+	},
+	{"tag": "118",
+	"patterns": ["Youre beyond our reasoning"],
+	"responses": ["Takes one to know one"]
+	},
+	{"tag": "120",
+	"patterns": ["Dad how could you make my son miss an entire semester of school","I mean its not like hes a hot girl","He cant just bail on his life and set up shop in someone elses"],
+	"responses": ["What what are you guys doing with my stuff"]
+	},
+	{"tag": "122",
+	"patterns": ["Were moving you to a nursing home"],
+	"responses": ["I build robots for fun","What are what are you nuts","A nursing home","Im a genius"]
+	},
+	{"tag": "124",
+	"patterns": ["Morty stay out of this","You are obviously not capable of judging these situations on your own"],
+	"responses": ["What are you trying to say about Morty","That hes stupid or something"]
+	},
+	{"tag": "126",
+	"patterns": ["Oh dont highroad us dad","You know fully well that Morty is the last child that needs to be missing classes"],
+	"responses": ["III dont know what you mean by that","Can can can you be a little bit more specific"]
+	},
+	{"tag": "128",
+	"patterns": ["Aw geez dad","Yyou know thats a lot to drop on a kid all at once"],
+	"responses": ["Morty ttell your parents the square root of pi"]
+	},
+	{"tag": "130",
+	"patterns": ["Oh come on Rick","You know I cant"],
+	"responses": ["Go","The square root of Pi Morty"]
+	},
+	{"tag": "132",
+	"patterns": ["Hes right","Holy crap"],
+	"responses": ["Morty tell your parents the first law of Thermodynamics"]
+	},
+	{"tag": "134",
+	"patterns": ["But"],
+	"responses": ["I told the both of you school is stupid","Mortys a gifted child","He has a special mind","Hes like me","Hes too smart for school","He needs to keep hanging out and helping me","Hes gonna be doing great science stuff later in his life","Thats why hes my little helper","Its not how you learn things"]
+	},
+	{"tag": "136",
+	"patterns": ["But he has to keep going to school","Uh maybe we overreacted","No II understand"],
+	"responses": ["I just want you to know between us from now on its gonna be clear communication","Okay Jerry","Say no","You drive a hard bargain but what am I supposed to do","Youyou really wear the pants around here"]
+	},
+	{"tag": "138",
+	"patterns": ["Frank Palicky was frozen to death today"],
+	"responses": ["No idea what youre talking about"]
+	},
+	{"tag": "140",
+	"patterns": ["I didnt know hanging out with you was making me smarter","Holy cow Rick"],
+	"responses": ["Full disclosure Morty its not","Temporary superintelligence is just a side effect of the mega seeds dissolving in your rectal cavity"]
+	},
+	{"tag": "142",
+	"patterns": ["Aw man"],
+	"responses": ["Yeah and once those seeds wear off youre gonna lose most of your motor skills and youre also gonna lose a significant amount of brain functionality for 72 hours Morty"]
+	},
+	{"tag": "144",
+	"patterns": ["Ohh man"],
+	"responses": ["And then were gonna go on even more adventures after that Morty and youre gonna keep your mouth shut about it Morty because the world is full of idiots that dont understand whats important and theyll tear us apart Morty but if you stick with me Im gonna accomplish great things Morty and youre gonna be part of them and together were gonna run around Morty","Mortys things","Im sorry Morty","Its just Rick and Morty","Were the only friends weve got Morty","Rick and Morty forever 100 times","In reality youre as dumb as they come and I needed those seeds real bad and I had to give them up just to get your parents off my back so now were gonna have to go get more adventures","All 100 years","All a hundred days","The outside world is our enemy Morty","Me and Rick and Morty running around and Rick and Morty time","Were gonna do all kinds of wonderful things Morty","com","Every minute","Over and overrickandmortyadventures","Its a bummer","Just you and me Morty","Rick and Morty and their adventures Morty","All day long forever","Rick and Morty forever and forever"]
+	},
+	{"tag": "146",
+	"patterns": ["Aw man"],
+	"responses": ["Boy you really got me up against a wall this time Jerry"]
+	},
+	{"tag": "148",
+	"patterns": ["Snuffles"],
+	"responses": ["Snuffles shake"]
+	},
+	{"tag": "150",
+	"patterns": ["No way"],
+	"responses": ["Have fun","Come on Morty","Yeah youre at the top of your game now Jerry"]
+	},
+	{"tag": "152",
+	"patterns": ["That was fantastic Rick"],
+	"responses": ["Yeah Morty if you like that boy youre youre really going to flip your lid over this one"]
+	},
+	{"tag": "154",
+	"patterns": ["Wwwwhat is it"],
+	"responses": ["Its just like that movie that you keep crowing about","Its a device Morty that when you put it in your ear you can enter peoples dreams Morty"]
+	},
+	{"tag": "156",
+	"patterns": ["You talking about Inception"],
+	"responses": ["Thats right Morty","This is gonna be a lot like that except you know its gonna maybe make sense"]
+	},
+	{"tag": "158",
+	"patterns": ["Inception made sense"],
+	"responses": ["You dont have to try to impress me Morty","Listen tonight were gonna go into the home of your math teacher Mr","Goldenfold and were gonna incept the idea in his brain to give you As in math Morty","That way you can you know yyoure gonna help me with my science Morty all the time"]
+	},
+	{"tag": "160",
+	"patterns": ["Geez Rick in the time it took you to make this thing couldnt you have just you know helped me with my homework"],
+	"responses": ["The whole point is to get less of it","Are you listening to me Morty","Homework is stupid"]
+	},
+	{"tag": "162",
+	"patterns": ["Then let me get to know yo damn it"],
+	"responses": ["Uhoh","Spoilers"]
+	},
+	{"tag": "164",
+	"patterns": ["Wow Rick I cant believe were sitting around standing around in Mr","Goldenfolds house","Its really weird"],
+	"responses": ["Its about to get a whole lot weirder Morty"]
+	},
+	{"tag": "166",
+	"patterns": ["You dont know me"],
+	"responses": ["All right Morty time to make our move"]
+	},
+	{"tag": "168",
+	"patterns": ["Ooohhh"],
+	"responses": ["Weve got to take him out so he wakes up Morty but we cant get killed","If you get killed in someone elses dream you die for real Morty","I mean the guy teaches highschool math","Goldenfolds got more control here than I anticipated","I didnt take him for an active dreamer"]
+	},
+	{"tag": "170",
+	"patterns": ["Are you kidding me","What","Ohhhhhh"],
+	"responses": ["You avoid getting shot in real life all the time Morty","Dont be a baby","Just do the same thing here and well be fine"]
+	},
+	{"tag": "172",
+	"patterns": ["Why would I negotiate with you"],
+	"responses": ["Because were both rational adults that dont want anything bad to happen","And because I have a human shield"]
+	},
+	{"tag": "174",
+	"patterns": ["AAAAAAAAAAAAAAAAAAAHHHHHHHHHHHHHH"],
+	"responses": ["Oh no Morty","His subconscious is panicking"]
+	},
+	{"tag": "176",
+	"patterns": ["AAAAAAAAAAAAAAAAAAHHHHHHHHHHHHHH"],
+	"responses": ["Whoa","Whoooooaaaa"]
+	},
+	{"tag": "178",
+	"patterns": ["Goldenfold landed the plane and hes created a  mechanical arm to pluck Mrs","Pancakes out of the air while he lets us fall  into a giant vat of lava","Oh no Rick look"],
+	"responses": ["Thatll buy us some time to figure this out","Thats it Morty","Listen if we go into Mrs","Looks like weve merely prolonged the inevitable","Pretty concise Morty","Prolonging the inevitable","Pancakes dream everything will go 100 times slower Morty"]
+	},
+	{"tag": "180",
+	"patterns": ["Oh man Rick this is pretty weird"],
+	"responses": ["Dont judge Morty"]
+	},
+	{"tag": "182",
+	"patterns": ["Okay","All right well Look Mrs","Ill just go ask her to tell goldenfold not to kill us when she wakes up","Pancakes is right over there"],
+	"responses": ["Pancakes we have to blend","Ill talk to you after lunch","If were gonna incept Mrs","Listen to me","Whoa whoa Morty the trick to incepting is making people think they came up with the idea"]
+	},
+	{"tag": "184",
+	"patterns": ["Its Summer"],
+	"responses": ["Looks like goldenfold has some predilections so shameful he buries them in the dreams of the people in his dreams including a pervy attraction to your underage sister","Aw geez"]
+	},
+	{"tag": "186",
+	"patterns": ["Off with their heads","Sexual hangups in the pleasure chamber are punishable by death"],
+	"responses": ["Time to go another dream deep Morty"]
+	},
+	{"tag": "188",
+	"patterns": ["Welcome to your nightmare bitch","RAAAAAWWWRRR"],
+	"responses": ["Oh here we go"]
+	},
+	{"tag": "190",
+	"patterns": ["A b his name is scary Terry C d hes very scary"],
+	"responses": ["We have to escape into someone elses dreams Morty","Holy crap"]
+	},
+	{"tag": "192",
+	"patterns": ["E f hell design your death"],
+	"responses": ["The little girl"]
+	},
+	{"tag": "194",
+	"patterns": ["J k hell really ruin your day"],
+	"responses": ["Are you kidding me","This again","Oh man it looks like weve hit dream bedrock here Morty"]
+	},
+	{"tag": "196",
+	"patterns": ["Ohhhh"],
+	"responses": ["Holy crap Morty","Were so screwed","He can travel through dreams"]
+	},
+	{"tag": "198",
+	"patterns": ["Were trying to incept me to get an A in math"],
+	"responses": ["Oh yeah"]
+	},
+	{"tag": "200",
+	"patterns": ["You can run but you cant hide bitch"],
+	"responses": ["Yyou know what","Hold on Morty","I say we try hiding","He keeps saying we can run but we can hide"]
+	},
+	{"tag": "202",
+	"patterns": ["But thats the opposite of what"],
+	"responses": ["Yeah well since when are we taking this guys advice on anything"]
+	},
+	{"tag": "204",
+	"patterns": ["Like if the truth was that we could hide its not like hed be sharing that information with us you know","You got a really good point there Rick","Hey you know what","III think its a good idea Rick"],
+	"responses": ["Worstcase scenario were back to running"]
+	},
+	{"tag": "206",
+	"patterns": ["Wow you know what","Boy Rick that was some good thinking","I mean it looks like we could have just hid this whole time"],
+	"responses": ["Thanks Morty","Yeah its nice to be on the same page every once in a while"]
+	},
+	{"tag": "208",
+	"patterns": ["You can run But you cant hide"],
+	"responses": ["Hes getting sleepy","Just a little bit longer before he calls it a day","Oh this is perfect Morty","Look at that","Thats when we make our move"]
+	},
+	{"tag": "210",
+	"patterns": ["Hey leave him alone"],
+	"responses": ["Who cares what stupid pun you make when you kill someone","Yeah this is a bunch of bullcrap","Why dont you let the poor guy say whatever he wants"]
+	},
+	{"tag": "212",
+	"patterns": ["II see no reason to stand here and take this","Well I never"],
+	"responses": ["You know I mean yyoure perfectly scary enough as it is","Youre putting too much pressure on yourself scary Terry"]
+	},
+	{"tag": "214",
+	"patterns": ["You dont need to say anything","We got you dawg"],
+	"responses": ["Dont even trip","Youre our boy dawg"]
+	},
+	{"tag": "216",
+	"patterns": ["If you guys ever need anything just say the word"],
+	"responses": ["As a matter of fact Terry there is something you could help us with"]
+	},
+	{"tag": "218",
+	"patterns": ["What the hell"],
+	"responses": ["Out of the frying pan dot dot dot huh Morty"]
+	},
+	{"tag": "220",
+	"patterns": ["Oh man whats going on"],
+	"responses": ["Well its possible that your dog became selfaware and made modifications on the cognition amplifier then turned on Jerry Beth and Summer after learning about humanitys cruel subjugation of his species but your guess is as good as mine Morty"]
+	},
+	{"tag": "222",
+	"patterns": ["I cant believe how mean snuffles got just because hes smart","This is why I choose to get Cs"],
+	"responses": ["Psst Beth Jerry Summer"]
+	},
+	{"tag": "224",
+	"patterns": ["Oh youre welcome"],
+	"responses": ["If we hurry we can set up camp in a sewer tunnel or something before the dogs completely take over","All right lets get out of here"]
+	},
+	{"tag": "226",
+	"patterns": ["Were not going anywhere","Im not abandoning it","This is my house","Whoa whoa whoa"],
+	"responses": ["But hey at least they know not to piss on your carpet right","The dogs are on a path to total world domination","Its all over Jerry"]
+	},
+	{"tag": "228",
+	"patterns": ["Bad person","Bad"],
+	"responses": ["Ooh great plan Jerry"]
+	},
+	{"tag": "230",
+	"patterns": ["Rick","I thought you were dead"],
+	"responses": ["No no no I was just playing dead","This whole things gonna be over really soon","Good news though Morty"]
+	},
+	{"tag": "232",
+	"patterns": ["What"],
+	"responses": ["Were in your dogs dream","Its a dream Morty","The night the dogs captured us after you cried and crapped your pants we all went to sleep","Then I used my dream inceptors to put the two of us inside snuffles dream"]
+	},
+	{"tag": "234",
+	"patterns": ["But Iits been like a whole year"],
+	"responses": ["Its been six hours","So you know every day here is like a minute","Dreams move one onehundredth the speed of reality and dog time is oneseventh human time","Its like Inception Morty so if its confusing and stupid then so is everyones favorite movie"]
+	},
+	{"tag": "236",
+	"patterns": ["Aw man","I really liked this life","Well at least I didnt really crap my pants"],
+	"responses": ["I mean its a mess out there","No no that happened before you went to sleep Morty","I got some on my hands Morty and then I got it on the dream inceptor and a piece fell in my mouth","Youre sleeping in your crap right now","Out of all the things that happened to you that was the only real thing that you know is that you crapped your pants"]
+	},
+	{"tag": "238",
+	"patterns": ["Seriously","Aw man geez"],
+	"responses": ["Here here take these Morty","Look ddddont worry about it Morty","Take these"]
+	},
+	{"tag": "240",
+	"patterns": ["Are these pills supposed to wake me up or something"],
+	"responses": ["Close","Its gonna make your kidneys shut down"]
+	},
+	{"tag": "242",
+	"patterns": ["What"],
+	"responses": ["Dont even trip dawg","Its necessary for the plan Morty"]
+	},
+	{"tag": "244",
+	"patterns": ["Wow","I wonder what itll be like Rick","A whole world populated by intelligent dogs"],
+	"responses": ["You know it could be developed ininto a very satisfying project for people of all ages","I mean Id watch it Morty for at least 11 minutes a pop","I think it will be great Morty","You know maymaybe theyll do it boarddriven"]
+	},
+	{"tag": "246",
+	"patterns": ["You know thats a real comforting idea Rick"],
+	"responses": ["What do you know","What do you know Morty"]
+	},
+	{"tag": "248",
+	"patterns": ["Uh actually you know what","Which is what is that","So anyway I understand your previous teacher was having you work on fundamentals of fear","Johnson","My name is scary Mr","Thats my dads name so why dont you just call me scary Glenn yeah","So uh here heres what I say you cant learn anything until you learn how to chill","Im your new teacher for scary class","You know","Hi guys"],
+	"responses": ["Oooh","This is how you dream bitch"]
+	}
+]
+}

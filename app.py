@@ -12,7 +12,8 @@ app.config["TEMPLATES_AUTO_RELOAD"] = True
 
 model = keras.models.load_model('chat_model')
 
-with open("intents.json") as file:
+#with open("intents.json") as file:
+with open("s1e1_clean_intents.json") as file:
     data = json.load(file)
 
 # load tokenizer object
