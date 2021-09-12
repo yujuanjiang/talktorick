@@ -14,11 +14,19 @@ const BOT_MSGS = [
 
 // Icons made by Freepik from www.flaticon.com
 // const BOT_IMG = "https://image.flaticon.com/icons/svg/327/327779.svg";
-const BOT_IMG = "/static/Images/rick.png";
+const BOT_IMG = "/static/images/rick.png";
 // const PERSON_IMG = "https://image.flaticon.com/icons/svg/145/145867.svg";
-const PERSON_IMG = "/static/Images/meek.png";
+const PERSON_IMG = "/static/images/meek.png";
 const BOT_NAME = "Rick";
 const PERSON_NAME = "Me";
+var MY_PERSON_NAME;
+
+window.alert("Before js");
+if (person){
+    window.alert(person);
+    MY_PERSON_NAME = person;
+}
+window.alert("After js");
 
 /*
 msgerForm.addEventListener("submit", event => {
@@ -116,14 +124,14 @@ function botResponse(resp) {
   //window.alert('Inside the func' + msgText);
   const delay = msgText.split(" ").length * 100;
 
-  if(PERSON_NAME === "Me"){
+  if(MY_PERSON_NAME){
     setTimeout(() => {
-    appendMessage(BOT_NAME, BOT_IMG, "left", resp.replace("Morty",""));
+    appendMessage(BOT_NAME, BOT_IMG, "left", resp.replace("Morty",MY_PERSON_NAME));
   }, delay);
   }
   else{
     setTimeout(() => {
-      appendMessage(BOT_NAME, BOT_IMG, "left", resp.replace("Morty",PERSON_NAME));
+      appendMessage(BOT_NAME, BOT_IMG, "left", resp.replace("Morty",""));
     }, delay);
   }
 }

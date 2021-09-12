@@ -70,9 +70,10 @@
     <input type=hidden id="iRickResp" name="RickResp" value = "{{pred}}"/>
 {% endif %}
 
+<script>
+  var person = prompt("Please enter your name", "Whatever. Like I really care...");
+</script>
 <script src="{{ url_for('static',filename='script/respond.js') }}"> </script>
-
-
 
 </body>
 </html>
