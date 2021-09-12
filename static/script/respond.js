@@ -21,12 +21,10 @@ const BOT_NAME = "Rick";
 const PERSON_NAME = "Me";
 var MY_PERSON_NAME;
 
-window.alert("Before js");
 if (person){
-    window.alert(person);
+    #window.alert(person);
     MY_PERSON_NAME = person;
 }
-window.alert("After js");
 
 /*
 msgerForm.addEventListener("submit", event => {
