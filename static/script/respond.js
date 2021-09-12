@@ -63,6 +63,36 @@ msgerBtn.addEventListener("click", event => {
 //botResponse(resp);
 });
 
+document.getElementById('myForm').addEventListener('submit', event => {
+  //window.alert("111!");
+
+  event.preventDefault();
+
+  const msgText = msgerInput.value;
+  if (!msgText) return;
+
+  appendMessage(PERSON_NAME, PERSON_IMG, "right", msgText);
+
+  //resp = msgerForm.submit();
+
+  const resp = fetch(`/reply/${msgText}`)
+      .then(function (response) {
+          return response.text();
+      }).then(function (text) {
+          //window.alert('GET response text:');
+          //window.alert(text);
+
+          msgerInput.value = "";
+          botResponse(text);
+      });
+
+//  window.alert('222');
+
+//msgerInput.value = "";
+//botResponse(resp);
+});
+
+
 //window.alert('66666!')  //<--- It worked!
 
 

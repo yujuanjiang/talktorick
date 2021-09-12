@@ -72,7 +72,7 @@ def getReply(inp):
                 print("Tag found!!!" + i['responses'][0])
                 return i['responses'][0]
 
-        return 'Sorry! Did not understand that shit!'
+        return 'Sorry! Did not understand that s****!'
 
 
 

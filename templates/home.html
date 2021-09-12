@@ -55,12 +55,11 @@
     </div>
 </main>
 
-<form class="msger-inputarea" action="{{ url_for('predict')}}" method="POST">
+<form id="myForm" class="msger-inputarea" action="{{ url_for('predict')}}" method="POST">
     <title> Talk to Rick! </title>
     
-    <input type = "text"  class="msger-input" placeholder="Say something..." name="inp" /><br>
-    <button type="button" class="msger-send-btn">Send</button>
-
+    <input id="inp" type = "text"  class="msger-input" placeholder="Say something..." name="inp" /><br>
+    <input type="submit" value="Send" class="msger-send-btn">
 
 </form>
 </section>
@@ -71,6 +70,7 @@
 {% endif %}
 
 <script src="{{ url_for('static',filename='script/respond.js') }}"> </script>
+
 
 
 </body>
