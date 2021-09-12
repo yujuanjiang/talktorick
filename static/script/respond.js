@@ -64,7 +64,6 @@ msgerBtn.addEventListener("click", event => {
 });
 
 document.getElementById('myForm').addEventListener('submit', event => {
-  //window.alert("111!");
 
   event.preventDefault();
 
@@ -73,23 +72,15 @@ document.getElementById('myForm').addEventListener('submit', event => {
 
   appendMessage(PERSON_NAME, PERSON_IMG, "right", msgText);
 
-  //resp = msgerForm.submit();
-
   const resp = fetch(`/reply/${msgText}`)
       .then(function (response) {
           return response.text();
       }).then(function (text) {
-          //window.alert('GET response text:');
-          //window.alert(text);
 
           msgerInput.value = "";
           botResponse(text);
       });
 
-//  window.alert('222');
-
-//msgerInput.value = "";
-//botResponse(resp);
 });
 
 
@@ -120,15 +111,21 @@ function appendMessage(name, img, side, text) {
 function botResponse(resp) {
   const r = random(0, BOT_MSGS.length - 1);
   //const msgText = BOT_MSGS[r];
-  const msgText = resp
+  const msgText = resp;
 
   //window.alert('Inside the func' + msgText);
   const delay = msgText.split(" ").length * 100;
 
-  setTimeout(() => {
-    appendMessage(BOT_NAME, BOT_IMG, "left", resp);
+  if(PERSON_NAME === "Me"){
+    setTimeout(() => {
+    appendMessage(BOT_NAME, BOT_IMG, "left", resp.replace("Morty",""));
   }, delay);
-
+  }
+  else{
+    setTimeout(() => {
+      appendMessage(BOT_NAME, BOT_IMG, "left", resp.replace("Morty",PERSON_NAME));
+    }, delay);
+  }
 }
 
 // Utils
