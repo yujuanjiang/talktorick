@@ -22,7 +22,7 @@ const PERSON_NAME = "Me";
 var MY_PERSON_NAME;
 
 if (person){
-    #window.alert(person);
+    //window.alert(person);
     MY_PERSON_NAME = person;
 }
 
